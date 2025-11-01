@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get Started - BrainStation Branches</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== Hero Section ===== -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>🧠 Get Started with BrainStation Branches</h1>
+      <p>Follow these steps to create your branch, add your page, and make your first Pull Request! 🚀</p>
+      <a href="../index.html" class="hero-button">⬅ Back to Home</a>
+    </div>
+  </header>
+  <!-- ===== End Hero Section ===== -->
+
+  <main class="content">
+    <section class="steps">
+      <h2>👣 Step-by-Step Guide</h2>
+
+      <ol>
+        <li>
+          <strong>Fork the Repository</strong>  
+          Click the <code>Fork</code> button at the top of this repo to create your own copy.
+        </li>
+
+        <li>
+          <strong>Clone Your Fork</strong>  
+          Copy the link from your forked repo and run this in your terminal:  
+          <pre><code>git clone https://github.com/YOUR-USERNAME/brainstation-branches.git</code></pre>
+        </li>
+
+        <li>
+          <strong>Create a Branch</strong>  
+          Switch to a new branch where you’ll work on your changes:  
+          <pre><code>git checkout -b your-name-branch</code></pre>
+        </li>
+
+        <li>
+          <strong>Add Your Page</strong>  
+          - Go to the <code>/pages/branches</code> folder  
+          - Copy <code>template.html</code>  
+          - Rename it to <code>your-name.html</code>  
+          - Add your info and save it!
+        </li>
+
+        <li>
+          <strong>Add Yourself to the Homepage</strong>  
+          Edit <code>index.html</code> and paste your section below the “Add your section below” line:
+          <pre><code>&lt;section class="student"&gt;
+  &lt;h2&gt;&lt;a href="pages/branches/your-name.html"&gt;Your Name&lt;/a&gt;&lt;/h2&gt;
+  &lt;p&gt;👋 Hi! I'm learning web development at BrainStation!&lt;/p&gt;
+&lt;/section&gt;
+</code></pre>
+        </li>
+
+        <li>
+          <strong>Commit and Push</strong>  
+          Save your work and push your branch:
+          <pre><code>git add .
+git commit -m "Add my student page and homepage link"
+git push origin your-name-branch</code></pre>
+        </li>
+
+        <li>
+          <strong>Open a Pull Request</strong>  
+          Go to your GitHub fork and click <code>Compare &amp; Pull Request</code> → <code>Create Pull Request</code>.
+        </li>
+
+        <li>
+          🎉 <strong>You're Done!</strong>  
+          Once your PR is approved and merged, your page will appear on the homepage. 💪
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with 💙 for BrainStation Students</p>
+  </footer>
+
+</body>
+</html>
